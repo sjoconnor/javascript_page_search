@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Title of the document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="src/search.js"></script>
+
+    <style type="text/css">
+      body {
+        font-family: Arial;
+      }
+
+      #search_input {
+        border: 1px solid #CCC;
+        border-right: none;
+        height: 20px;
+        padding: 5px;
+        margin-right: 0;
+        outline: none;
+      }
+
+      #clear {
+        border: 1px solid #CCC;
+        border-left: none;
+        color: #ccc;
+        height: 20px;
+        padding: 6px;
+        text-decoration: none;
+      }
+
+      #clear:hover {
+        color: #aaa;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="search">
+      <input type="text" value="" id="search_input" /><a href="#" id="clear">X</a>
+    </div>
+    <table>
+      <tr id="home">
+        <td class="tag">Home</td>
+        <td><textarea>Home</textarea></td>
+      </tr>
+      <tr id="home2">
+        <td class="tag">Home</td>
+        <td><textarea>Home</textarea></td>
+      </tr>
+      <tr id="about_us">
+        <td class="tag">About Us</td>
+        <td><textarea>About Us</textarea></td>
+      </tr>
+      <tr id="contact_us">
+        <td class="tag">Contact Us</td>
+        <td><textarea>Contact Us</textarea></td>
+      </tr>
+      <tr id="login">
+        <td class="tag">Login</td>
+        <td><textarea>Login</textarea></td>
+      </tr>
+    </table>
+  </body>
+</html>
